@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="data_description">
+        <item>Berada di lereng Gunung Slamet, wisata Pagubugan akan membawa Anda merasakan betapa tenang dan
+            nyamannya berada di tengah persawahan dan bermain air di sungai. Eduwisata yang berada di Desa Melung
+            ini memiliki berbagai spot wisata menarik yang akan memanjakan Anda. Mulai dari trek jogging,
+            outbond, camping ground, sawah pelangi, taman kelinci, berbagai spot foto keren dan juga Grujugan Bengkok.
+            Di Grujugan Bengkok ini Anda bisa mandi sepuasnya dan airnya sangat jernih, lho! Selain itu lintasan
+            grujugan ini juga panjang, melewati persawahan dan tidak dalam, sehingga aman buat si kecil.
+            Selain itu ada juga wisata bercocok tanam bagi anak paud, TK maupun SD yang berkunjung.
+            Dan yang terbaru ada kolam renang di tengah persawahan yang aman untuk anak-anak.</item>
+        <item>Berlokasi tak terlalu jauh dengan pusat kota Purwokerto, The Village hadir dengan gaya unik
+            khas perkampungan Eropa. Bangunan tinggi besar menyerupai kastil dengan dinding bata langsung
+            mencuri perhatian begitu melangkahkan kaki ke sini. Ada beragam aktivitas yang bisa Anda lakukan
+            di sini: naik perahu mengitari kanal buatan di sekitar taman rekreasi, memberi makan aneka binatang
+            (burung, kelinci, sapi, domba), menunggang kuda, foto-foto dengan kostum Belanda, dan masih banyak lagi!
+        </item>
+    </string-array>
+    <string-array name="data_name">
+        <item>Wisata Pagubugan</item>
+        <item>The Village Purwokerto</item>
+    </string-array>
+    <string-array name="data_photo">
+        <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2019/09/18-1-by-
+            @miftakhulmukhasin-@hengki_pamungkas-740x294.jpg</item>
+        <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2019/09/21-2-by-
+            @The-Village-Purwokerto-740x740.jpg</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent"/>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">praktikum6</string>
+    <string name="description"/>
+    <string name="name"/>
+    <string name="tampil_card_view"/>
+    <string name="tampil_grid"/>
+    <string name="tampil_list"/>
+    <style name="Theme.ProjectModul3" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
