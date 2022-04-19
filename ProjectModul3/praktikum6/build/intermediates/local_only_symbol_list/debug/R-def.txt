@@ -13,6 +13,7 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable image_19102004_background
 id action_cardview
 id action_grid
 id action_list
@@ -32,6 +33,9 @@ layout item_list
 menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap image_19102004
+mipmap image_19102004_foreground
+mipmap image_19102004_round
 string app_name
 string description
 string name
