@@ -11,65 +11,158 @@
 9-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:4:5-67
-11-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:4:22-64
+11-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:5:22-64
 12
-13    <application
-13-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:6:5-22:19
-14        android:allowBackup="true"
-14-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:7:9-35
-15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.7.0] C:\Users\Administrator\.gradle\caches\transforms-3\0e7fd1b1e0c170391813c3bf966f678e\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
-16        android:debuggable="true"
-17        android:icon="@mipmap/ic_launcher"
-17-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:8:9-43
-18        android:label="@string/app_name"
-18-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:9:9-41
-19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:10:9-54
-20        android:supportsRtl="true"
-20-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:11:9-35
-21        android:theme="@style/Theme.ProjectModul3" >
-21-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:12:9-51
-22        <activity
-22-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:13:9-21:20
-23            android:name="com.dimas_19102004.praktikum6.MainActivity"
-23-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:14:13-41
-24            android:exported="true" >
-24-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:15:13-36
-25            <intent-filter>
-25-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:16:13-20:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:17:17-69
-26-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:17:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:19:17-77
-28-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:19:27-74
-29            </intent-filter>
-30        </activity>
-31
-32        <provider
-32-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\36a0ca5d24daa10f5d9d1674d7462536\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-33            android:name="androidx.startup.InitializationProvider"
-33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\36a0ca5d24daa10f5d9d1674d7462536\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-34            android:authorities="com.dimas_19102004.praktikum6.androidx-startup"
-34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\36a0ca5d24daa10f5d9d1674d7462536\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-35            android:exported="false" >
-35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\36a0ca5d24daa10f5d9d1674d7462536\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-36            <meta-data
-36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\36a0ca5d24daa10f5d9d1674d7462536\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-37                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\36a0ca5d24daa10f5d9d1674d7462536\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-38                android:value="androidx.startup" />
-38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\36a0ca5d24daa10f5d9d1674d7462536\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-39            <meta-data
-39-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Administrator\.gradle\caches\transforms-3\3e0b71932d1456f66d591f4bf123a15d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-40                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-40-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Administrator\.gradle\caches\transforms-3\3e0b71932d1456f66d591f4bf123a15d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-41                android:value="androidx.startup" />
-41-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Administrator\.gradle\caches\transforms-3\3e0b71932d1456f66d591f4bf123a15d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-42        </provider>
-43    </application>
-44
-45</manifest>
+13    <!-- Include required permissions for Google Maps API to run. -->
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Administrator\.gradle\caches\transforms-3\f08414383d7a0157151b9ee49a2e5f58\transformed\play-services-maps-17.0.1\AndroidManifest.xml:23:5-79
+14-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Administrator\.gradle\caches\transforms-3\f08414383d7a0157151b9ee49a2e5f58\transformed\play-services-maps-17.0.1\AndroidManifest.xml:23:22-76
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Administrator\.gradle\caches\transforms-3\f08414383d7a0157151b9ee49a2e5f58\transformed\play-services-maps-17.0.1\AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Administrator\.gradle\caches\transforms-3\f08414383d7a0157151b9ee49a2e5f58\transformed\play-services-maps-17.0.1\AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Administrator\.gradle\caches\transforms-3\f08414383d7a0157151b9ee49a2e5f58\transformed\play-services-maps-17.0.1\AndroidManifest.xml:28:9-32
+19
+20    <queries>
+20-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Administrator\.gradle\caches\transforms-3\f08414383d7a0157151b9ee49a2e5f58\transformed\play-services-maps-17.0.1\AndroidManifest.xml:30:5-34:15
+21
+22        <!-- Needs to be explicitly declared on Android R+ -->
+23        <package android:name="com.google.android.apps.maps" />
+23-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Administrator\.gradle\caches\transforms-3\f08414383d7a0157151b9ee49a2e5f58\transformed\play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
+23-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Administrator\.gradle\caches\transforms-3\f08414383d7a0157151b9ee49a2e5f58\transformed\play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
+24    </queries>
+25
+26    <application
+26-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:7:5-54:19
+27        android:allowBackup="true"
+27-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:8:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.7.0] C:\Users\Administrator\.gradle\caches\transforms-3\c24c2139ffd39a0eb266de4192e3314c\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:9:9-43
+31        android:label="@string/app_name"
+31-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:10:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:11:9-54
+33        android:supportsRtl="true"
+33-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:12:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.ProjectModul3" >
+35-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:13:9-51
+36
+37        <!--
+38             TODO: Before you run your application, you need a Google Maps API key.
+39
+40             To get one, follow the directions here:
+41
+42                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+43
+44             Once you have your API key (it starts with "AIza"), define a new property in your
+45             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+46             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+47        -->
+48        <meta-data
+48-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:26:9-28:71
+49            android:name="com.google.android.geo.API_KEY"
+49-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:27:13-58
+50            android:value="AIzaSyCMRlsVJuP7j9zlICpcPJKPjSBZm9MiuMk" />
+50-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:28:13-68
+51
+52        <activity
+52-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:30:9-33:59
+53            android:name="com.dimas_19102004.praktikum6.MapsActivity"
+53-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:31:13-41
+54            android:exported="false"
+54-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:32:13-37
+55            android:label="@string/title_activity_maps" />
+55-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:33:13-56
+56        <activity
+56-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:34:9-44:20
+57            android:name="com.dimas_19102004.praktikum6.DetailActivity"
+57-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:35:13-43
+58            android:exported="true"
+58-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:36:13-36
+59            android:label="@string/title_activity_detail"
+59-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:37:13-58
+60            android:theme="@style/Theme.ProjectModul3.NoActionBar" >
+60-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:38:13-67
+61            <intent-filter>
+61-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:39:13-43:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:40:17-69
+62-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:40:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:42:17-77
+64-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:42:27-74
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:45:9-53:20
+68            android:name="com.dimas_19102004.praktikum6.MainActivity"
+68-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:46:13-41
+69            android:exported="true" >
+69-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:47:13-36
+70            <intent-filter>
+70-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:39:13-43:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:40:17-69
+71-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:40:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:42:17-77
+73-->C:\Users\Administrator\AndroidStudioProjects\ProjectModul3\praktikum6\src\main\AndroidManifest.xml:42:27-74
+74            </intent-filter>
+75        </activity>
+76        <!-- Needs to be explicitly declared on P+ -->
+77        <uses-library
+77-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Administrator\.gradle\caches\transforms-3\f08414383d7a0157151b9ee49a2e5f58\transformed\play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+78            android:name="org.apache.http.legacy"
+78-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Administrator\.gradle\caches\transforms-3\f08414383d7a0157151b9ee49a2e5f58\transformed\play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
+79            android:required="false" />
+79-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Administrator\.gradle\caches\transforms-3\f08414383d7a0157151b9ee49a2e5f58\transformed\play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+80
+81        <activity
+81-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\b8001461e4cdbb0aa518e80386a10ccf\transformed\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+82            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+82-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\b8001461e4cdbb0aa518e80386a10ccf\transformed\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+83            android:exported="false"
+83-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\b8001461e4cdbb0aa518e80386a10ccf\transformed\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+84-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\b8001461e4cdbb0aa518e80386a10ccf\transformed\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+85
+86        <meta-data
+86-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\d857609c626b05fea4d7b32736498f8e\transformed\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+87            android:name="com.google.android.gms.version"
+87-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\d857609c626b05fea4d7b32736498f8e\transformed\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+88            android:value="@integer/google_play_services_version" />
+88-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\d857609c626b05fea4d7b32736498f8e\transformed\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+89
+90        <provider
+90-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\25f601de5e19e806a9be54913150197a\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+91            android:name="androidx.startup.InitializationProvider"
+91-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\25f601de5e19e806a9be54913150197a\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+92            android:authorities="com.dimas_19102004.praktikum6.androidx-startup"
+92-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\25f601de5e19e806a9be54913150197a\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+93            android:exported="false" >
+93-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\25f601de5e19e806a9be54913150197a\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+94            <meta-data
+94-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\25f601de5e19e806a9be54913150197a\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+95                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+95-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\25f601de5e19e806a9be54913150197a\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+96                android:value="androidx.startup" />
+96-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\25f601de5e19e806a9be54913150197a\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+97            <meta-data
+97-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Administrator\.gradle\caches\transforms-3\4fcb35ba96a37ba51963de3064e98dc7\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+98                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+98-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Administrator\.gradle\caches\transforms-3\4fcb35ba96a37ba51963de3064e98dc7\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+99                android:value="androidx.startup" />
+99-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Administrator\.gradle\caches\transforms-3\4fcb35ba96a37ba51963de3064e98dc7\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+100        </provider>
+101    </application>
+102
+103</manifest>

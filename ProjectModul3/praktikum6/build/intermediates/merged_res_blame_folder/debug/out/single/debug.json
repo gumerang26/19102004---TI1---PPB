@@ -36,6 +36,10 @@
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\build\\intermediates\\merged_res\\debug\\menu_menu_detail.xml.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\src\\main\\res\\menu\\menu_detail.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_image_19102004.png.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\src\\main\\res\\mipmap-xxxhdpi\\image_19102004.png"
     },
@@ -84,6 +88,18 @@
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\src\\main\\res\\layout\\item_grid.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\build\\intermediates\\merged_res\\debug\\layout-w1240dp_content_scrolling.xml.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\src\\main\\res\\layout-w1240dp\\content_scrolling.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_location_on_24.xml.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\src\\main\\res\\drawable\\ic_baseline_location_on_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\build\\intermediates\\merged_res\\debug\\layout-w936dp_content_scrolling.xml.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\src\\main\\res\\layout-w936dp\\content_scrolling.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_image_19102004.png.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\src\\main\\res\\mipmap-xhdpi\\image_19102004.png"
     },
@@ -96,12 +112,24 @@
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\src\\main\\res\\mipmap-hdpi\\image_19102004.png"
     },
     {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\build\\intermediates\\merged_res\\debug\\layout_activity_maps.xml.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\src\\main\\res\\layout\\activity_maps.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\build\\intermediates\\merged_res\\debug\\layout_item_list.xml.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\src\\main\\res\\layout\\item_list.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_image_19102004_foreground.png.flat",
         "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\src\\main\\res\\mipmap-mdpi\\image_19102004_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\build\\intermediates\\merged_res\\debug\\layout_content_scrolling.xml.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\src\\main\\res\\layout\\content_scrolling.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\build\\intermediates\\merged_res\\debug\\layout_activity_detail.xml.flat",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\src\\main\\res\\layout\\activity_detail.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\ProjectModul3\\praktikum6\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_image_19102004_foreground.png.flat",
