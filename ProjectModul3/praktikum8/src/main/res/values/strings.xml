@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">praktikum8</string>
+    <string name="this_play" />
+    <string name="coming_from" />
+    <string name="close" />
+    <string name="check_sms_permission" />
+    <string name="incoming_message" />
+</resources>
