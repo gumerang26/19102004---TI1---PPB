@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "140316792156",
+    "project_id": "fir-ppb2022-dd194",
+    "storage_bucket": "fir-ppb2022-dd194.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140316792156:android:953bf24ed302aa76435d99",
+        "android_client_info": {
+          "package_name": "com.dimas_19102004.praktikum11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140316792156-qa4jl72afel34ro6usqi6b96uu0gan6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe2F2z0b9VKhHaBgVfQ7JWIDnriaGCWA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140316792156-qa4jl72afel34ro6usqi6b96uu0gan6i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
