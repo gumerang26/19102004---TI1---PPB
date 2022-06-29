@@ -21,6 +21,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectModul3" >
         <activity
+            android:name="com.dimas_19102004.praktikum11.PhoneAuthActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dimas_19102004.praktikum11.QuoteAddUpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dimas_19102004.praktikum11.DashboardQuoteActivity"
+            android:exported="false" />
+        <activity
             android:name="com.dimas_19102004.praktikum11.SignUpActivity"
             android:exported="false" />
         <activity
@@ -45,6 +54,12 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"

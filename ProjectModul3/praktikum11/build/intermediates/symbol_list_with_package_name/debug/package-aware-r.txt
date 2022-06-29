@@ -2495,6 +2495,8 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_baseline_add_circle_24
+drawable ic_baseline_delete_24
 drawable ic_baseline_email_24
 drawable ic_baseline_local_phone_24
 drawable ic_clock_black_24dp
@@ -2613,6 +2615,7 @@ id action_bar_subtitle
 id action_bar_title
 id action_container
 id action_context_bar
+id action_delete
 id action_divider
 id action_image
 id action_menu_divider
@@ -2653,12 +2656,17 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnContinue
 id btnCreateAccount
+id btnDashboardQuote
 id btnEmail
 id btnEmailVerify
 id btnPhone
+id btnResend
 id btnSign
 id btnSignOut
+id btnVerify
+id btn_submit
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2702,6 +2710,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id cv_item_quote
 id dark
 id dataBinding
 id date_picker_actions
@@ -2742,6 +2751,9 @@ id east
 id edit_query
 id edittext_dropdown_editable
 id edittext_dropdown_noneditable
+id edt_category
+id edt_description
+id edt_title
 id elastic
 id end
 id endToStart
@@ -2750,6 +2762,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fab_add
 id fade
 id fill
 id fill_horizontal
@@ -2793,7 +2806,9 @@ id immediateStop
 id included
 id info
 id inputEmail
+id inputNumber
 id inputPassword
+id inputVerifyCode
 id invisible
 id inward
 id italic
@@ -2918,6 +2933,7 @@ id postLayout
 id progressBar
 id progress_circular
 id progress_horizontal
+id progressbar
 id radio
 id ratio
 id rectangles
@@ -2928,6 +2944,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rv_quotes
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3040,13 +3057,20 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv62
 id tvConneting
 id tvCreateAccount
 id tvLogin
 id tvName
+id tvSignIn
 id tvSignUp
 id tvTextAccount
 id tvUserId
+id tv_cateogry
+id tv_item_category
+id tv_item_date
+id tv_item_description
+id tv_item_title
 id unchecked
 id uniform
 id unlabeled
@@ -3163,7 +3187,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_dashboard_quote
 layout activity_main
+layout activity_phone_auth
+layout activity_quote_add_update
 layout activity_sign_in
 layout activity_sign_up
 layout custom_dialog
@@ -3182,6 +3209,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout item_quote
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3258,6 +3286,7 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu example_menu
 menu example_menu2
+menu menu_form
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -3293,6 +3322,7 @@ string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
+string category
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -3316,7 +3346,10 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string date
 string default_web_client_id
+string delete
+string description
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -3409,6 +3442,8 @@ string path_password_strike_through
 string project_id
 string search_menu_title
 string status_bar_notification_info_overflow
+string submit
+string title
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

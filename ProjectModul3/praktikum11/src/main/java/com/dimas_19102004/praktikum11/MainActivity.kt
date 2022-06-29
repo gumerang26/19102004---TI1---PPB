@@ -30,6 +30,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             .requestEmail()
             .build()
         googleSignInClient = GoogleSignIn.getClient(this, gso)
+        binding.btnSignOut.setOnClickListener(this)
+        binding.btnEmailVerify.setOnClickListener(this)
+        binding.btnDashboardQuote.setOnClickListener(this)
+
         val currentUser = auth.currentUser
         if (currentUser == null) {
             val intent = Intent(this@MainActivity, SignInActivity::class.java)
@@ -81,11 +85,16 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.btnEmailVerify.setOnClickListener(this)
     }
     override fun onClick(v: View) {
-        when (v.id) { R.id.btnSignOut -> {
+        when (v.id) {
+            R.id.btnSignOut -> {
             signOut()
-        }
+            }
             R.id.btnEmailVerify -> {
                 sendEmailVerification()
+            }
+            R.id.btnDashboardQuote -> {
+                val intent = Intent(this@MainActivity, DashboardQuoteActivity::class.java)
+                startActivity(intent)
             }
         }
     }
